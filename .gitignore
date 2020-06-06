@@ -1,0 +1,12 @@
+node_modules
+package-lock.json
+.output/
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.sublime-project
+*.sublime-workspace

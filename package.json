@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-react-classname",
+  "version": "0.0.0",
+  "description": "Check using class as classname in render",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "react-eslint-plugin"
+  ],
+  "author": "Katherina",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node node_modules/.bin/mocha tests --recursive"
+  },
+  "dependencies": {
+    "jsx-ast-utils": "^2.3.0",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "git": "git@github.com:Katherina-Miao/-react-eslint-plugin-classname.git",
+  "license": "ISC"
+}
